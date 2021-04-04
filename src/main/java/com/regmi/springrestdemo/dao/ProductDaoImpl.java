@@ -1,6 +1,6 @@
-package com.regmi.SpringBootDemo.dao;
+package com.regmi.springrestdemo.dao;
 
-import com.regmi.SpringBootDemo.entity.Product;
+import com.regmi.springrestdemo.entity.Product;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 public class ProductDaoImpl implements ProductDao{
-//    @Autowired
+
     private EntityManager entityManager;
 
     @Autowired

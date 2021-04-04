@@ -1,21 +1,20 @@
-package com.regmi.SpringBootDemo.service;
+package com.regmi.springrestdemo.service;
 
-import com.regmi.SpringBootDemo.dao.ProductDao;
-import com.regmi.SpringBootDemo.entity.Product;
+import com.regmi.springrestdemo.dao.ProductDao;
+import com.regmi.springrestdemo.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
 @Service
 public class ProductsServiceImpl implements ProductsService {
 
-
     private ProductDao productDao;
+
     @Autowired
-    public ProductsServiceImpl(ProductDao theproductdao) {
-        this.productDao = theproductdao;
+    public ProductsServiceImpl(ProductDao productDao) {
+        this.productDao = productDao;
     }
 
     @Override

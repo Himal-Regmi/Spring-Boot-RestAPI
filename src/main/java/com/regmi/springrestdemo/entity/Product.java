@@ -1,4 +1,4 @@
-package com.regmi.SpringBootDemo.entity;
+package com.regmi.springrestdemo.entity;
 
 import javax.persistence.*;
 

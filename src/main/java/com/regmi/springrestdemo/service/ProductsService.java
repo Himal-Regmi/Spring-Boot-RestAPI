@@ -1,7 +1,6 @@
-package com.regmi.SpringBootDemo.service;
+package com.regmi.springrestdemo.service;
 
-import com.regmi.SpringBootDemo.entity.Product;
-
+import com.regmi.springrestdemo.entity.Product;
 import java.util.List;
 
 public interface ProductsService {

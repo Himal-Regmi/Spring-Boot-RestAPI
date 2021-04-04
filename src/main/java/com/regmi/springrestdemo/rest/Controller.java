@@ -1,10 +1,9 @@
-package com.regmi.SpringBootDemo.rest;
+package com.regmi.springrestdemo.rest;
 
-import com.regmi.SpringBootDemo.entity.Product;
-import com.regmi.SpringBootDemo.service.ProductsService;
+import com.regmi.springrestdemo.entity.Product;
+import com.regmi.springrestdemo.service.ProductsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController

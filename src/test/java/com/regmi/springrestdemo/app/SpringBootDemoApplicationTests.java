@@ -1,4 +1,4 @@
-package com.regmi.SpringBootDemo.app;
+package com.regmi.springrestdemo.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

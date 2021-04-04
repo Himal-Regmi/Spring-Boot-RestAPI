@@ -1,7 +1,6 @@
-package com.regmi.SpringBootDemo.dao;
+package com.regmi.springrestdemo.dao;
 
-import com.regmi.SpringBootDemo.entity.Product;
-
+import com.regmi.springrestdemo.entity.Product;
 import java.util.List;
 
 public interface ProductDao {
